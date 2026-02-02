@@ -20,11 +20,11 @@
             </button>
             <div id="navbarcontents" class="navbar-collapse collapse">
                <div class="navbar-nav">
-                  <a href="index.html" class="nav-link active"><img src="images/home.jpg"  style="border-radius:20px;" width="40%" height="40%"></a>
+                  <a href="index.html" class="nav-link "><img src="images/home.jpg"  style="border-radius:20px;" width="40%" height="40%"></a>
                   <a href="products.html" class="nav-link"><b>Products</b></a>
                   <a href="orders.html" class="nav-link"><b>Orders</b></a>
-                  <a href="login.html" class="nav-link btn btn-success active">Login</a>
-                  <a href="register.html" class="nav-link btn btn-warning">Register</a>
+                  <a href="login.html" class="nav-link btn btn-success">Login</a>
+                  <a href="register.html" class="nav-link btn btn-warning active">Register</a>
                   <div class="container-fluid">
     <form class="d-flex" role="search">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -47,25 +47,36 @@
             <h5 class="text-light"><b>First Name</b></h5><input type="text" placeholder="First Name" class="bg-dark btn text-light"><br><br>
             <h5 class="text-light"><b>Last Name</b></h5><input type="text" placeholder="Last Name" class="bg-dark btn text-light"><br><br>
             <h5 class="text-light"><b>Username</b></h5><input type="text" placeholder="Enter Your Username " class="btn bg-info text-light"><br><br>
-            <h5 class="text-dark"><b>Password</b></h5><input type="password" placeholder="Create Password" class="btn bg-primary text-light">
-            <h5 class="text-dark"><b></b></h5><input type="password" placeholder="Confirm Password" class="btn bg-success text-light"><br><br>
+            <h5 class="text-light"><b>Password</b></h5><input type="password" placeholder="Create Password" class="btn bg-info text-light">
+            <h5 class="text-light"><b></b></h5><input type="password" placeholder="Confirm Password" class="btn bg-info text-light"><br><br>
          </fieldset>
          <!-- First partition ends here -->
           <!-- Second partition statrts here -->
            <section class="row">
+            <h5 class="bg-dark btn text-light text-center"><b>Please Select Your Account type</b></h5>
+            <div class="col-lg-4"></div>
             <div class="col-lg-4">
-                <fieldset class="text-center ">
-            <h5 class="bg-dark btn text-light"><b>Please Select Your Account type</b></h5><br>
-            <input type="radio" name="account"><b class="btn bg-light">Personal Account</b> <br><br>
-            <input type="radio" name="account"><b class="btn bg-light">Comunnity Account</b>
+                <fieldset class=" ">
+            <br>
+            <input type="radio" name="account"><b class="btn bg-warning text-dark">Personal </b> <br><br>
+            <input type="radio" name="account"><b class="btn bg-warning text-dark">Comunnity</b><br><br>
            </fieldset>
             </div>
-
+            <div class="col-lg-4"></div>
            </section>
            <!-- Second partition ends here -->
-    </form>
-        </div>
-        <div class="col-lg-4"></div>
-    </section>
+            <!-- Third partition starts here -->
+             <section class="row">
+                <h5 class="bg-dark btn text-light text-center"><b>Would You Like to Publicise This Account and Enable Others to Log In?</b></h5> 
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                   <fieldset>
+                    <input type="radio"><b class="text-light">Yes</b>///////
+                    <input type="radio"><b class="text-light">No</b>
+                   </fieldset>
+                </div>
+                <div class="col-lg-4"></div>
+             </section>
+             <!-- Third partition ends here -->
 </body>
 </html>
