@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+   <script src="dist/js/bootstrap.js"></script>
+</head>
+<body style="background-image: url(images/welcomepic.jpg); background-size: cover; background-position: center;">
+     <!-- Section one starts here. -->
+   <section class="row">
+      <div class="col-lg-12">
+         <!-- The tag element below holds all the contents of the nav bar -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <a href="index.html" class="navbar-brand"><img  style="border-radius: 100px; margin-bottom: 1px;margin-top: 1px;" src="images/farmer.png" width="40%" height="20%"></a>
+            <!-- Below is the toggler/hamburger to either collapse/expand contents depending on the different screen sizes  -->
+            <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarcontents" class="navbar-collapse collapse">
+               <div class="navbar-nav">
+                  <a href="index.html" class="nav-link active"><img src="images/home.jpg"  style="border-radius:20px;" width="40%" height="40%"></a>
+                  <a href="products.html" class="nav-link"><b>Products</b></a>
+                  <a href="orders.html" class="nav-link"><b>Orders</b></a>
+                  <a href="login.html" class="nav-link btn btn-success active">Login</a>
+                  <a href="register.html" class="nav-link btn btn-warning">Register</a>
+                  <div class="container-fluid">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </section>
+   <!-- Section one ends here. -->
+    <section class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <form >
+        <h2 class="text-light text-center mx-auto bg-dark"><b>Welcome Back To Digital Farm Market</b></h2>
+        <!-- First partition starts here. -->
+         <fieldset class="p-5 text-light">
+            <h5 class="text-light"><b>First Name</b></h5><input type="text" placeholder="First Name" class="bg-dark btn text-light"><br><br>
+            <h5 class="text-light"><b>Last Name</b></h5><input type="text" placeholder="Last Name" class="bg-dark btn text-light"><br><br>
+            <h5 class="text-light"><b>Username</b></h5><input type="text" placeholder="Enter Your Username " class="btn bg-info text-light"><br><br>
+            <h5 class="text-dark"><b>Password</b></h5><input type="password" placeholder="Create Password" class="btn bg-primary text-light">
+            <h5 class="text-dark"><b></b></h5><input type="password" placeholder="Confirm Password" class="btn bg-success text-light"><br><br>
+         </fieldset>
+         <!-- First partition ends here -->
+          <!-- Second partition statrts here -->
+           <section class="row">
+            <div class="col-lg-4">
+                <fieldset class="text-center ">
+            <h5 class="bg-dark btn text-light"><b>Please Select Your Account type</b></h5><br>
+            <input type="radio" name="account"><b class="btn bg-light">Personal Account</b> <br><br>
+            <input type="radio" name="account"><b class="btn bg-light">Comunnity Account</b>
+           </fieldset>
+            </div>
+
+           </section>
+           <!-- Second partition ends here -->
+    </form>
+        </div>
+        <div class="col-lg-4"></div>
+    </section>
+</body>
+</html>
